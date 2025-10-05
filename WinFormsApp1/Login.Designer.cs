@@ -119,6 +119,7 @@
             // 
             // txtCorporateId
             // 
+            txtCorporateId.Enabled = false;
             txtCorporateId.Location = new Point(160, 167);
             txtCorporateId.Margin = new Padding(4, 3, 4, 3);
             txtCorporateId.Name = "txtCorporateId";
@@ -164,6 +165,7 @@
             Margin = new Padding(4, 3, 4, 3);
             Name = "Login";
             Text = "Dossier-Mgmt - Update Root Directory Name (User Login)";
+            Load += Login_Load;
             ResumeLayout(false);
             PerformLayout();
 

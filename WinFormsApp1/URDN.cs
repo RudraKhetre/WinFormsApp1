@@ -128,7 +128,10 @@ namespace WindowsFormsApp1
             var result = MessageBox.Show("Are you sure you want to log out?", "Logout", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (result == DialogResult.Yes)
             {
-                this.Close(); // In a real app, you would show the login form here.
+                //this.Close(); // In a real app, you would show the login form here.
+                this.Hide();
+                Login updateForm = new Login(); // Pass the actual loginId
+                updateForm.Show();
             }
         }
 

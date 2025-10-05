@@ -86,7 +86,7 @@
             // 
             // txtISN
             // 
-            txtISN.Location = new Point(175, 52);
+            txtISN.Location = new Point(195, 52);
             txtISN.Name = "txtISN";
             txtISN.Size = new Size(175, 23);
             txtISN.TabIndex = 1;
@@ -94,7 +94,7 @@
             // lblNoOfChars
             // 
             lblNoOfChars.AutoSize = true;
-            lblNoOfChars.Location = new Point(28, 85);
+            lblNoOfChars.Location = new Point(409, 59);
             lblNoOfChars.Name = "lblNoOfChars";
             lblNoOfChars.Size = new Size(102, 15);
             lblNoOfChars.TabIndex = 2;
@@ -102,7 +102,7 @@
             // 
             // txtNoOfChars
             // 
-            txtNoOfChars.Location = new Point(175, 82);
+            txtNoOfChars.Location = new Point(556, 56);
             txtNoOfChars.MaxLength = 2;
             txtNoOfChars.Name = "txtNoOfChars";
             txtNoOfChars.Size = new Size(50, 23);
@@ -111,7 +111,7 @@
             // 
             // btnSearch
             // 
-            btnSearch.Location = new Point(240, 78);
+            btnSearch.Location = new Point(621, 52);
             btnSearch.Name = "btnSearch";
             btnSearch.Size = new Size(75, 28);
             btnSearch.TabIndex = 4;
@@ -121,7 +121,7 @@
             // btnCancel
             // 
             btnCancel.BackColor = Color.Gold;
-            btnCancel.Location = new Point(325, 78);
+            btnCancel.Location = new Point(706, 52);
             btnCancel.Name = "btnCancel";
             btnCancel.Size = new Size(75, 28);
             btnCancel.TabIndex = 5;
